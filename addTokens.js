@@ -12,8 +12,8 @@ export async function addTokens() {
 	}
 	
 	let JSONBody = {
-		addedTokens: 500,
-		addedXp: 300
+		addedTokens: 500000,
+		addedXp: 300000
 	};
 
 	let payload = (new TextEncoder).encode(JSON.stringify(JSONBody));
